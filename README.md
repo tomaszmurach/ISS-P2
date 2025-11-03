@@ -4,7 +4,7 @@ Projekt składa się z czterech plików:
 
 | Plik | Opis |
 |------|------|
-| **robot.ino** | Kod programu dla mikrokontrolera (Arduino UNO). Zawiera implementację PID, obsługę komend, telemetrię i logikę trybów. |
+| **pro2-iss.ino** | Kod programu dla mikrokontrolera (Arduino UNO). Zawiera implementację PID, obsługę komend, telemetrię i logikę trybów. |
 | **cli.py** | Interfejs użytkownika w Pythonie. Pozwala wysyłać komendy do mikrokontrolera, wyświetla odpowiedzi oraz dane telemetrii. |
 | **protocol.py** | Moduł obliczający i dołączający sumę kontrolną CRC (suma ASCII mod 256). |
 | **transport.py** | Moduł odpowiedzialny za komunikację szeregową z Arduino (z użyciem biblioteki `pyserial`). |
